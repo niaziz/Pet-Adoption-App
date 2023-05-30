@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "Plugin:react-hook/recommended",
+    "prettier"
+  ],
+  "plugins": [],
+  "parserOption": {
+    "ecmaVersion": 2023,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  }
+}
